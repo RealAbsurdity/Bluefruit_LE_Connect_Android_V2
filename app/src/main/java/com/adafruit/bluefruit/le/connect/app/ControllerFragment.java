@@ -68,7 +68,7 @@ public class ControllerFragment extends ConnectedPeripheralFragment implements G
 
     // Config
     private final static boolean kKeepUpdatingParentValuesInChildActivities = true;
-    private final static int kSendDataInterval = 500;   // milliseconds
+    private final static int kSendDataInterval = 100;   // milliseconds
 
     // Permission requests
     private final static int PERMISSION_REQUEST_FINE_LOCATION = 1;
